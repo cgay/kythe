@@ -146,13 +146,13 @@ with any interested contributors:
  * *Graph schema*. Kythe provides a simple, extensible
    https://kythe.io/schema/[graph schema] for a variety of
    interesting semantic cross-reference data in various languages, including
-   C++, Java, and (soon) Go.  We also provide some simple, open-source tools
+   C++, Java, and Go.  We also provide some simple, open-source tools
    that make it easy to add new elements to the schema, and test whether an
    analyzer that produces those elements has met its contract.
 
  * *Analyzers, tools and examples*. The Kythe project provides several
    open-source tools for generating and manipulating Kythe data, including
-   indexers for C++, Java, and (soon) Go; a self-contained server that can use
+   indexers for C++, Java, and Go; a self-contained server that can use
    Kythe data to answer cross-reference queries; and some UI example code that
    shows how some of these pieces can be glued together.
 
