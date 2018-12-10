@@ -74,8 +74,8 @@ Docker image.
 ## Indexing Compilations
 
 All Kythe indexers analyze compilations emitted from
-[extractors](#extracting-compilations) as either a
-[.kzip file]({{site.baseurl}}/docs/kythe-kzip.html).  The indexers will then
+[extractors](#extracting-compilations) as a
+[.kzip file]({{site.baseurl}}/docs/kythe-kzip.html).  The indexers
 emit a [delimited
 stream]({{site.data.development.source_browser}}/kythe/go/platform/delimited/delimited.go)
 of [entry protobufs]({{site.baseurl}}/docs/kythe-storage.html#_entry) that can
