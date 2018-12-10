@@ -23,9 +23,9 @@ understand exactly where the edges and nodes are connected or even what nodes
 exist.  One way to help visualize the data better is to provide a web UI for
 browsing the set of files indexed.  The Kythe team has provided a sample
 implementation of one such UI as an example.footnote:[Chromium's
-https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/devtools/browser_list_tabcontents_provider.cc[Code
-Search] browser is another example of a UI using similar data from Google's
-internal version of Kythe.]
+https://cs.chromium.org/chromium/src/ui/base/base_window.h[Code Search] browser
+is another example of a UI using similar data from Google's internal version of
+Kythe.]
 
 We currently host our https://kythe.io/repo/kythe/web/ui[sample web UI] at
 https://xrefs-dot-kythe-repo.appspot.com/ based on Kythe's own Java and C++
